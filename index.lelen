@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lelen's Blog</title>
+    <title>Lelen Daily Newswire</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,13 +34,13 @@
             margin: auto;
             overflow: hidden;
         }
-        .post {
+        .article {
             background: white;
             margin: 20px 0;
             padding: 20px;
             border-left: 5px solid #006a4e; /* Green */
         }
-        .post h2 {
+        .article h2 {
             color: #006a4e; /* Green */
         }
         footer {
@@ -56,28 +56,45 @@
 </head>
 <body>
     <header>
-        <h1>Lelen's Blog</h1>
-        <p>Hardware Repair Tech in New York sharing insights and tips</p>
+        <h1>Lelen Daily Newswire</h1>
+        <p>Your source for the latest news and updates</p>
     </header>
     <nav>
         <a href="#home">Home</a>
-        <a href="#about">About</a>
+        <a href="#world">World</a>
+        <a href="#politics">Politics</a>
+        <a href="#business">Business</a>
+        <a href="#technology">Technology</a>
+        <a href="#sports">Sports</a>
+        <a href="#entertainment">Entertainment</a>
         <a href="#contact">Contact</a>
     </nav>
     <div class="container">
-        <section class="post" id="home">
-            <h2>Welcome to My Blog!</h2>
-            <p>Hello and welcome to my blog! Here, I share my experiences and tips on hardware repair, from troubleshooting common issues to advanced repair techniques. Stay tuned for updates and feel free to leave your comments and questions.</p>
+        <section class="article" id="home">
+            <h2>Welcome to Lelen Daily Newswire</h2>
+            <p>Stay informed with the latest headlines and in-depth stories from around the world. Our team of dedicated journalists brings you the news that matters most, covering everything from global events to local stories.</p>
         </section>
-        <section class="post">
-            <h2>Latest Post</h2>
-            <p>Title: <em>How to Fix a Slow Computer</em></p>
-            <p>Posted on: May 28, 2024</p>
-            <p>A slow computer can be incredibly frustrating. In this post, I'll walk you through some simple steps you can take to speed up your machine, including cleaning up your hard drive, optimizing startup programs, and more...</p>
+        <section class="article" id="latest-news">
+            <h2>Latest News</h2>
+            <article>
+                <h3>Breaking: Major Event Happening Now</h3>
+                <p>Date: May 28, 2024</p>
+                <p>A major event is unfolding right now. Our reporters are on the scene bringing you the latest updates as they happen. Stay tuned for more details...</p>
+            </article>
+            <article>
+                <h3>Technology: New Innovations in AI</h3>
+                <p>Date: May 27, 2024</p>
+                <p>Artificial Intelligence is advancing at a rapid pace. Recent innovations are paving the way for smarter, more efficient systems that could change the way we live and work...</p>
+            </article>
+            <article>
+                <h3>Sports: Championship Results</h3>
+                <p>Date: May 26, 2024</p>
+                <p>The championship game concluded with a stunning victory. Fans are celebrating as their team takes home the trophy after a hard-fought season...</p>
+            </article>
         </section>
     </div>
     <footer>
-        <p>&copy; 2024 Lelen. All rights reserved.</p>
+        <p>&copy; 2024 Lelen Daily Newswire. All rights reserved.</p>
     </footer>
 </body>
 </html>
